@@ -1,0 +1,55 @@
+body
+{
+    margin: 0;
+    font-family: sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.7em;
+}
+
+h1
+{
+    border: 5px solid black;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.doble-rojo
+{
+    border-top: double 20px red;
+    border-left: double 20px red;
+}
+
+.azul-dot
+{
+    border-color: blue green;
+    border-width: 5px 15px 25px 30px;
+    border-style: dashed dashed dashed solid;
+}
+
+.amarillo
+{
+    border-color: rgb(255, 217, 0);
+    border-width: 25px 10px;
+    border-style: double;
+}
+
+.azul-verde
+{
+    border-top: 25px lime solid;
+    border-bottom: 25px blue solid;
+}
+
+.dotted-big
+{
+    border-color: red black black black;
+    border-width: 37px;
+    border-style: dashed solid dotted solid;
+}
+
+.dotted-small
+{
+    border-color: black black black red;
+    border-width: 15px 30px 20px 30px;
+    border-style: dotted solid dashed double;
+}
